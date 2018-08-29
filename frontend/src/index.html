@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width">
 
     <title>Chat</title>
-    <link rel="stylesheet" href="./styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
+    <script  src="https://code.jquery.com/jquery-2.2.4.min.js" 
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <h1>Chat</h1>
-
-    <div class="messages">
-      <ul class="message-list"></ul>
-
-      <div class="message-input">
-        <input type="text" />
-        <button type="button">Enviar</button>
-      </div>
+    <div id="content">
+    <p>Olá, como posso ajudar?</p>  
     </div>
+
+    <div id="message">
+          <textarea rows="2" cols="34" placeholder="Comente sua dúvida"></textarea>
+          <button>Enviar</button>
+    </div>
+  <script src="chat.js" type="text/javascript" charset="utf-8" async defer></script>
   </body>
 </html>
